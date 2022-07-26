@@ -1,0 +1,89 @@
+{% load static %}
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <p>Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love. Learners around the world are launching new careers, advancing in their fields, and enriching their lives.</p>
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="fb.com"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="github.com"><i class="fa fa-github"></i></a></li>
+								<li><a href="twitter.com"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="youtube.com"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+							</ul><!-- end links -->
+						</div>						
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="/index">Home</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/courses">Courses</a></li>
+							<li><a href="/teachers">Teachers</a></li>
+							<li><a href="/contact">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a>Mert Vural</a></li>
+                            <li><a href="mailto:#">vural.mert@hotmail.com</a></li>
+                            <li>Istanbul</li>
+                            <li>+90 542 250 9968</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">SmartEDU</a> Design By : <a href="https://html.design/">html.design</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="{% static 'js/all.js' %}"></script>
+    <!-- ALL PLUGINS -->
+    <script src="{% static 'js/custom.js' %}"></script>
+	<script src="{% static 'js/timeline.min.js' %}"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
+    <script>
+        $(window).on('load', function() {
+            $('#login').modal('show');
+        });
+    </script>
+</body>
+</html>
